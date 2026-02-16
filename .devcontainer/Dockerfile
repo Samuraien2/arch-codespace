@@ -1,6 +1,6 @@
 FROM archlinux:latest
 
-RUN pacman -Syu --noconfirm sudo git bash gcc openssh \
+RUN pacman -Syu --noconfirm sudo git bash openssh x11vnc xorg-server-xvfb \
  && echo 'export PS1="[\w]# "' > /root/.bashrc \
  && echo "en_US.UTF-8 UTF-8" > /etc/locale.gen \
  && locale-gen
