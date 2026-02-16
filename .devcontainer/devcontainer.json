@@ -1,5 +1,4 @@
 {
-  "name": "Arch Codespace",
   "build": {
     "dockerfile": "Dockerfile"
   },
